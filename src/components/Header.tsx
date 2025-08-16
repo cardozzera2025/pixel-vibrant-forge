@@ -15,11 +15,11 @@ export function Header({ onLoginClick, onCartClick, cartItemCount = 0 }: HeaderP
 
   const navigation = [
     { name: "MUSIC", href: "#music" },
-    { name: "ARTISTS", href: "#artists" },
+    { name: "ARTISTS", href: "/artists" },
     { name: "SHOP", href: "#shop" },
     { name: "RADIO", href: "#radio" },
     { name: "PLAYLIST", href: "#playlist" },
-    { name: "CONTACT", href: "#contact" },
+    { name: "CONTACT", href: "/contact" },
   ];
 
   return (

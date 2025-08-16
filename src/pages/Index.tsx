@@ -5,6 +5,7 @@ import { MusicSection } from "@/components/MusicSection";
 import { AuthModal } from "@/components/AuthModal";
 import { ShoppingCart, type CartItem } from "@/components/ShoppingCart";
 import { Footer } from "@/components/Footer";
+import { NewsletterPopup } from "@/components/NewsletterPopup";
 import { Checkout } from "./Checkout";
 import { OrderConfirmation } from "./OrderConfirmation";
 import { useToast } from "@/hooks/use-toast";
@@ -132,6 +133,8 @@ const Index = () => {
       </main>
 
       <Footer />
+
+      <NewsletterPopup />
 
       <AuthModal
         open={isAuthModalOpen}
